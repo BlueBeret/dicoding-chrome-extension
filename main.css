@@ -1,0 +1,14 @@
+@font-face {
+    font-family: quicksand;
+    src: url(src/Quicksand-VariableFont_wght.ttf);
+  }
+
+* {
+    font-family: quicksand;
+}
+
+
+.active {
+    color: white !important;
+    background-color: #1f2b38 !important;
+}

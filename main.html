@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Dicoding Extension</title>
+  <script src="src/tailwind-3.2.6.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="m-2 w-[220px] flex flex-col flex-wrap">
+  <div class="flex flex-col gap-2">
+    <h3 class="text-xl font-[500]">Video Speed</h3>
+    <div class="flex flex-row gap-2 flex-wrap">
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">0.25</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">0.5</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">0.75</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300 active">1</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">1.25</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">1.5</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">1.75</button>
+      <button
+        class="btn-speed bg-white rounded-sm font-[600] w-10 text-[#1f2b38] hover:text-white hover:bg-[#1f2b38] border-[1px] border-[#2d3e50] transition transition-all duration-300">2</button>
+    </div>
+    <div>
+      <input type="number" min="0.1" max="15" id="custom-speed-input" class="border-[1px] border-[#2d3e50] w-12">
+      <button id="btn-custom-speed" class="bg-[#1f2b38] rounded-sm font-[600] w-10 text-white">Set</button>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
