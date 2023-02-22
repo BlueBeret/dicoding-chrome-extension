@@ -10,7 +10,7 @@ Currently the feature(s) are:
 
 1. clone this repository or download the [zip file](https://github.com/BlueBeret/dicoding-chrome-extension/releases/download/prerelease/dce_prerelease.zip)
     -  if you download the zip file, extract it
-2. open [chrome://extensions/](chrome://extensions/) or [edge://extensions/](edge://extensions/)
+2. open <a href="chrome://extensions/">chrome://extensions/</a> or <a href="edge://extensions/">edge://extensions/</a>
 3. enable developer mode
 4. click "Load unpacked" and select the folder of this repository
 5. open Dicoding and click the extension icon
