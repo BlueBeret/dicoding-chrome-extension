@@ -8,7 +8,7 @@ Currently the feature(s) are:
 
 ## How To Use
 
-1. clone this repository or download the [zip file](#placeholderlink)
+1. clone this repository or download the [zip file](https://github.com/BlueBeret/dicoding-chrome-extension/releases/download/prerelease/dce_prerelease.zip)
     -  if you download the zip file, extract it
 2. open [chrome://extensions/](chrome://extensions/) or [edge://extensions/](edge://extensions/)
 3. enable developer mode
